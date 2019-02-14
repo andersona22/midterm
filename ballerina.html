@@ -1,0 +1,36 @@
+<html>
+<style>
+    #ballerina {
+        background-image: url(./ballerina%20.jpg);
+        width: 118px;
+        height: 130px;
+        margin: auto;
+        background-size: contain;
+        animation: turn1 2s, turn2 0.5s 10 2s, turn3 2s 6s, fade_out_in 2s 7s;
+    }
+    
+    @keyframes turn1 {
+        from{transform: rotateY(0);}
+        to{transform: rotateY(360deg);}
+    }
+    
+    @keyframes turn2 {
+        from{transform: rotateY(0);}
+        to{transform: rotateY(360deg);}
+    }
+    
+    @keyframes turn3 {
+        from{transform: rotateY(0);}
+        to{transform: rotateY(360deg;)}
+    }
+    
+    @keyframes fade_out_in {
+        from{opacity: 0;}
+        to{opacity: 1;}
+    }
+    </style>
+    <body>
+    <div id="ballerina"> </div>
+    
+    </body>
+</html>
